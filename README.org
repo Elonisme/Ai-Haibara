@@ -1,1 +1,40 @@
 * APTX-4869
+This is my Emacs configuration, a rework after using Space Emacs, Doom Emacs, Centura Emacs, and my previously self-written Ink Emacs.
+I am a new-generation Emacs user, so my experience with it is not very extensive. I first encountered Emacs in my junior year, 
+but it wasn't until my senior year that I truly began using it. Now, as a first-year graduate student, I have been using Emacs for almost two years.
+
+When I initially started using Emacs, I aimed to centralize all my tasks within Emacs(All IN) because I found it cool and different from what others were doing. 
+I even believed that all the code I wrote had to be part of the free software movement; otherwise, I wouldn't consider myself a 
+true advocate of free software. However, this approach came at the cost of consuming a significant amount of time. Despite Emacs introducing me to 
+a different world, as a traditional Chinese student, I had to devote considerable time to academic pursuits, especially subjects and tasks that 
+required assessment. I needed to publish papers and deal with paper-related tasks. It was time for Emacs to truly demonstrate its value for me.
+
+Hence, I crafted the current configuration. It's not complicated; simplicity is the key. I named this configuration APTX-4869, after a fictional 
+drug invented by my favorite anime character, Ai Haibara. This drug transforms the body of an adult into that of a child without affecting 
+intelligence and knowledge. I hope this compact and flexible configuration can achieve a similar feat—being flexible and practical.
+
+Getting back on track, I hope Emacs can achieve the following functionalities with my configuration:
+
+- Able to realize card notes and serve as a second brain.
+- Capable of replacing Typora.
+- Capable of lightweight programming in the shell.
+- Fast startup speed.
+- Moderately aesthetic.
+
+** Supported Emacs versions
+Use the latest released Emacs version available to you. 
+
+** Other requirements
+If you are using Arch Linux, you can use the ~relying.sh~ to install other requirements.
+
+** Installation
+To install, clone this repo to ~.emacs.d~,i.e ensure that the ~init.el~ contained in this repo ends up at
+~/.emacs.d/init.el~ :
+
+#+BEGIN_SRC shell
+git clone git@github.com:Elonisme/APTX-4869.git ~/.emacs.d
+#+END_SRC
+
+Upon starting up Emacs for the first time, further third-party packages will be automatically downloaded and 
+installed. If you encounter any errors at that stage, try restarting Emacs, and possibly running ~M-x package-refresh-contents~ 
+before doing so.
