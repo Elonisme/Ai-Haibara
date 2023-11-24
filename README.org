@@ -26,6 +26,15 @@ Getting back on track, I hope Emacs can achieve the following functionalities wi
 - Fast startup speed.
 - Moderately aesthetic.
 
+To achieve these goals, I aim to use as few third-party packages as possible.I have utilized the following packages to achieve the functionalities I need.
+- lsp-bridge
+- org-roam
+- org-download
+- dashboard
+- ...
+
+You can find my configurations for these packages in the ~lisp~ directory.
+
 ** Supported Emacs versions
 Use the latest released Emacs version available to you. 
 
@@ -33,8 +42,8 @@ Use the latest released Emacs version available to you.
 If you are using Arch Linux, you can use the ~relying.sh~ to install other requirements.
 
 ** Installation
-To install, clone this repo to ~.emacs.d~,i.e ensure that the ~init.el~ contained in this repo ends up at
-~/.emacs.d/init.el~ :
+To install, clone this repo to ~\~/.emacs.d~,i.e ensure that the ~init.el~ contained in this repo ends up at
+~\~/.emacs.d/init.el~ :
 
 #+BEGIN_SRC shell
 git clone git@github.com:Elonisme/APTX-4869.git ~/.emacs.d
@@ -47,3 +56,4 @@ before doing so.
 If you correctly initiate the APTX-4869, you will see the following startup screen. I hope you have a great time exploring and enjoying it!
 #+DOWNLOADED: screenshot @ 2023-11-24 18:27:29
 [[file:img/Installation/2023-11-24_18-27-29_screenshot.png]]
+
