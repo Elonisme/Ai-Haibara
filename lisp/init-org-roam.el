@@ -1,4 +1,9 @@
-;;; 设置卡片笔记为文献笔记的搭建做准备
+;;; init-org-roam.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
+;;; offerring card note
 (use-package org-roam
   :ensure t
   :custom
@@ -27,3 +32,6 @@
   )
 
 (provide 'init-org-roam)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-org-roam.el ends here

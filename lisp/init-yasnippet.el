@@ -1,3 +1,8 @@
+;;; init-yasnippet.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 (use-package yasnippet
   :ensure t
   :diminish yas-minor-mode
@@ -21,3 +26,6 @@
 
 
 (provide 'init-yasnippet)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-yasnippet.el ends here

@@ -1,4 +1,4 @@
-;;; init-local.el --- Load the my configuration -*- lexical-binding: t -*-
+;;; init.el --- The main init entry for Emacs -*- lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:
@@ -54,8 +54,8 @@
   )
 
 
-
-
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init.el ends here
 
 
 

@@ -1,4 +1,9 @@
-;; 安装 `use-package'
+;;; init-package.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
+;; install `use-package'
 (unless (package-installed-p 'use-package)
   (package-refresh-contents)
   (package-install 'use-package))
@@ -24,3 +29,6 @@
   :ensure t)
 
 (provide 'init-package)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-package.el ends here

@@ -1,3 +1,8 @@
+;;; init-org.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 ;; 图片默认宽度
 (setq org-image-actual-width '(400))
 
@@ -11,3 +16,6 @@
 
 
 (provide 'init-org)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-org.el ends here

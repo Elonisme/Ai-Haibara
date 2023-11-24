@@ -1,4 +1,9 @@
-;;; 设置Dashboard
+;;; init-dashbord.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
+;;; setting Dashboard
 (use-package dashboard
   :ensure t
   :init
@@ -25,3 +30,6 @@
 
 
 (provide 'init-dashboard)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-dashboard.el ends here

@@ -1,4 +1,9 @@
-;; org-download实现粘贴复制图片到orgmode
+;;; init-org-download.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
+;; offering paste img in org mode
 (use-package org-download
   :ensure t
   :defer t ;; 延迟加载
@@ -12,3 +17,7 @@
 (add-hook 'dired-mode-hook 'org-download-enable)
 
 (provide 'init-org-download)
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-org-download.el ends here

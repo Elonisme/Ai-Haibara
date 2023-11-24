@@ -1,3 +1,9 @@
+;;; init-theme.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
+
 (use-package nordic-night-theme
   :ensure t
   :config
@@ -8,3 +14,6 @@
   (load-theme 'nordic-night t))
 
 (provide 'init-theme)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-theme.el ends here

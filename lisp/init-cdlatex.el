@@ -1,4 +1,9 @@
-;; Latex设置
+;;; init-cdlatex.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
+;; cdlatex offer latex some complete function
 (use-package cdlatex
   :ensure t
   :defer t
@@ -8,3 +13,6 @@
 
 
 (provide 'init-cdlatex)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-cdlatex.el ends here

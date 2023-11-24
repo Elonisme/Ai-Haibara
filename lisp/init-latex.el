@@ -1,3 +1,8 @@
+;;; init-latex.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 (use-package tex
   :ensure auctex
   :custom
@@ -15,3 +20,6 @@
 
 
 (provide 'init-latex)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-latex.el ends here

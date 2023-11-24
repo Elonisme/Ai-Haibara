@@ -1,4 +1,9 @@
-;;; treesit
+;;; init-treesit.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
+;; set treesit
 (use-package treesit-auto
   :ensure t
   :config
@@ -6,3 +11,5 @@
 
 (provide 'init-treesit)
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-treesit.el ends here

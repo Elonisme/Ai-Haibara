@@ -1,3 +1,8 @@
+;;; init-vertico.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 (use-package vertico
   :ensure t
   :hook (after-init . vertico-mode)
@@ -28,3 +33,6 @@ folder, otherwise delete a word"
   )
 
 (provide 'init-vertico)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-vertico.el ends here

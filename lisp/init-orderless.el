@@ -1,3 +1,8 @@
+;;; init-orderless.el -- hugo settings -*-  lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 ;; support Pinyin first character match for orderless, avy etc.
 (use-package pinyinlib
   :ensure t)
@@ -20,3 +25,6 @@
 
 
 (provide 'init-orderless)
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-orderless.el ends here
