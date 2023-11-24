@@ -54,6 +54,6 @@ installed. If you encounter any errors at that stage, try restarting Emacs, and 
 before doing so.
 
 If you correctly initiate the APTX-4869, you will see the following startup screen. I hope you have a great time exploring and enjoying it!
-#+DOWNLOADED: screenshot @ 2023-11-24 18:27:29
-[[file:img/Installation/2023-11-24_18-27-29_screenshot.png]]
 
+#+DOWNLOADED: screenshot @ 2023-11-24 21:18:07
+[[file:img/Installation/2023-11-24_21-18-07_screenshot.png]]
