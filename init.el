@@ -25,6 +25,15 @@
 
 (setq package-enable-at-startup nil)
 
+;; open pixel-scroll
+(pixel-scroll-mode t)
+(pixel-scroll-precision-mode t)
+
+;; open display-line-numbers
+(add-hook 'prog-mode-hook 'display-line-numbers-mode)
+
+;; open electric pair
+(electric-pair-mode 1)
 
 ;; loading lisp directory
 (let ((dir (locate-user-emacs-file "lisp")))
@@ -56,12 +65,3 @@
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; init.el ends here
-
-
-
-
-
-
-
-
-
