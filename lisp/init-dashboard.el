@@ -9,7 +9,7 @@
   :init
   (progn
     ;; Set the title
-    (setq dashboard-banner-logo-title "Welcom APTX-4869 Emacs")
+    (setq dashboard-banner-logo-title "コードネーム?シェリー")
     ;; Set the banner
     (setq dashboard-startup-banner "~/.emacs.d/logo.png")
     ;; Content is not centered by default. To center, set
