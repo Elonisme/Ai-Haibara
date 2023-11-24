@@ -42,8 +42,8 @@ Use the latest released Emacs version available to you.
 If you are using Arch Linux, you can use the ~relying.sh~ to install other requirements.
 
 ** Installation
-To install, clone this repo to ~\~/.emacs.d~,i.e ensure that the ~init.el~ contained in this repo ends up at
-~\~/.emacs.d/init.el~ :
+To install, clone this repo to ~~/.emacs.d~,i.e ensure that the ~init.el~ contained in this repo ends up at
+~~/.emacs.d/init.el~ :
 
 #+BEGIN_SRC shell
 git clone git@github.com:Elonisme/APTX-4869.git ~/.emacs.d
