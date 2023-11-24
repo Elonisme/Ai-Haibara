@@ -1,4 +1,9 @@
 * APTX-4869
+
+#+DOWNLOADED: screenshot @ 2023-11-24 17:24:42
+[[file:img/APTX-4869/2023-11-24_17-24-42_screenshot.png]]
+
+
 This is my Emacs configuration, a rework after using Space Emacs, Doom Emacs, Centura Emacs, and my previously self-written Ink Emacs.
 I am a new-generation Emacs user, so my experience with it is not very extensive. I first encountered Emacs in my junior year, 
 but it wasn't until my senior year that I truly began using it. Now, as a first-year graduate student, I have been using Emacs for almost two years.
