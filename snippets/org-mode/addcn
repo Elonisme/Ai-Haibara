@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: addcn
+# key: <cn
+# --
+#+LATEX_HEADER: \usepackage{ctex}
+#+LATEX_HEADER: \usepackage{seqsplit}
+#+LATEX_HEADER: \usepackage{minted}
+#+LATEX_HEADER: \usemintedstyle{tango}

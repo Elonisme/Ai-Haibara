@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# name: title
+# key: <title
+# --
+#+TITLE: $0
+#+SUBTITLE:
+#+AUTHOR: Elon Li
+#+DATE: `(format-time-string "%Y/%m/%d %H:%M:%S")`
+#+EMAIL: elonisme@keemail.me
+
+#+STARTUP: overview
+#+OPTIONS: author:nil date:nil email:nil timestamp:nil num:t
