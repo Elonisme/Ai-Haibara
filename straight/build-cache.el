@@ -3,7 +3,7 @@
 
 "29.1"
 
-#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ("2023-11-25 19:53:11" ("emacs") (:type git :host github :repo "radian-software/straight.el" :files ("straight*.el") :branch "master" :package "straight" :local-repo "straight.el")) "org-elpa" ("2023-11-25 19:53:11" nil (:local-repo nil :package "org-elpa" :type git)) "melpa" ("2023-11-25 19:53:11" nil (:type git :host github :repo "melpa/melpa" :build nil :package "melpa" :local-repo "melpa")) "gnu-elpa-mirror" ("2023-11-25 19:53:11" nil (:type git :host github :repo "emacs-straight/gnu-elpa-mirror" :build nil :package "gnu-elpa-mirror" :local-repo "gnu-elpa-mirror")) "nongnu-elpa" ("2023-11-25 19:53:11" nil (:type git :repo "https://git.savannah.gnu.org/git/emacs/nongnu.git" :depth (full single-branch) :local-repo "nongnu-elpa" :build nil :package "nongnu-elpa")) "el-get" ("2023-11-25 19:53:11" nil (:type git :host github :repo "dimitri/el-get" :build nil :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :flavor melpa :package "el-get" :local-repo "el-get")) "emacsmirror-mirror" ("2023-11-25 19:53:11" nil (:type git :host github :repo "emacs-straight/emacsmirror-mirror" :build nil :package "emacsmirror-mirror" :local-repo "emacsmirror-mirror")) "lsp-bridge" ("2023-11-25 19:53:11" ("emacs" "markdown-mode") (:type git :host github :repo "manateelazycat/lsp-bridge" :files (:defaults "*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources") :build (:not compile) :package "lsp-bridge" :local-repo "lsp-bridge")) "markdown-mode" ("2023-11-25 19:53:11" ("emacs") (:type git :flavor melpa :host github :repo "jrblevin/markdown-mode" :package "markdown-mode" :local-repo "markdown-mode"))))
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ("2023-11-25 22:31:08" ("emacs") (:type git :host github :repo "radian-software/straight.el" :files ("straight*.el") :branch "master" :package "straight" :local-repo "straight.el")) "org-elpa" ("2023-11-25 22:31:08" nil (:local-repo nil :package "org-elpa" :type git)) "melpa" ("2023-11-25 22:31:08" nil (:type git :host github :repo "melpa/melpa" :build nil :package "melpa" :local-repo "melpa")) "gnu-elpa-mirror" ("2023-11-25 22:31:08" nil (:type git :host github :repo "emacs-straight/gnu-elpa-mirror" :build nil :package "gnu-elpa-mirror" :local-repo "gnu-elpa-mirror")) "nongnu-elpa" ("2023-11-25 22:31:08" nil (:type git :repo "https://git.savannah.gnu.org/git/emacs/nongnu.git" :depth (full single-branch) :local-repo "nongnu-elpa" :build nil :package "nongnu-elpa")) "el-get" ("2023-11-25 22:31:08" nil (:type git :host github :repo "dimitri/el-get" :build nil :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :flavor melpa :package "el-get" :local-repo "el-get")) "emacsmirror-mirror" ("2023-11-25 22:31:08" nil (:type git :host github :repo "emacs-straight/emacsmirror-mirror" :build nil :package "emacsmirror-mirror" :local-repo "emacsmirror-mirror")) "lsp-bridge" ("2023-11-25 22:31:09" ("emacs" "markdown-mode") (:type git :host github :repo "manateelazycat/lsp-bridge" :files (:defaults "*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources") :build (:not compile) :package "lsp-bridge" :local-repo "lsp-bridge")) "markdown-mode" ("2023-11-25 22:31:09" ("emacs") (:type git :flavor melpa :host github :repo "jrblevin/markdown-mode" :package "markdown-mode" :local-repo "markdown-mode")) "typst-mode" ("2023-11-25 22:31:09" ("polymode" "emacs") (:type git :host github :repo "Ziqi-Yang/typst-mode.el" :package "typst-mode" :local-repo "typst-mode.el")) "polymode" ("2023-11-25 22:31:09" ("emacs") (:type git :flavor melpa :host github :repo "polymode/polymode" :package "polymode" :local-repo "polymode"))))
 
 #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ((straight-autoloads straight-ert-print-hack straight-x straight) (autoload 'straight-remove-unused-repos "straight" "Remove unused repositories from the repos and build directories.
 A repo is considered \"unused\" if it was not explicitly requested via
@@ -343,10 +343,149 @@ evaluate `lsp-bridge-mode'.
 The mode's hook is called both when the mode is enabled and when
 it is disabled.
 
-(fn &optional ARG)" t) (autoload 'global-lsp-bridge-mode "lsp-bridge" nil t) (register-definition-prefixes "lsp-bridge" '("acm-library-path" "lsp-bri" "position-before-jump")) (register-definition-prefixes "lsp-bridge-call-hierarchy" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-code-action" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-dart" '("lsp-bridge-dart-")) (register-definition-prefixes "lsp-bridge-diagnostic" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-epc" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-inlay-hint" '("lsp-bridge-inlay-hint")) (register-definition-prefixes "lsp-bridge-jdtls" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-lsp-installer" '("codeium-" "lsp-bridge-" "tabnine-bridge-")) (register-definition-prefixes "lsp-bridge-org-babel" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-peek" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-ref" '("lsp-bridge-ref-")) (register-definition-prefixes "lsp-bridge-semantic-tokens" '("lsp-bridge-semantic-tokens-")) (provide 'lsp-bridge-autoloads))))
+(fn &optional ARG)" t) (autoload 'global-lsp-bridge-mode "lsp-bridge" nil t) (register-definition-prefixes "lsp-bridge" '("acm-library-path" "lsp-bri" "position-before-jump")) (register-definition-prefixes "lsp-bridge-call-hierarchy" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-code-action" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-dart" '("lsp-bridge-dart-")) (register-definition-prefixes "lsp-bridge-diagnostic" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-epc" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-inlay-hint" '("lsp-bridge-inlay-hint")) (register-definition-prefixes "lsp-bridge-jdtls" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-lsp-installer" '("codeium-" "lsp-bridge-" "tabnine-bridge-")) (register-definition-prefixes "lsp-bridge-org-babel" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-peek" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-ref" '("lsp-bridge-ref-")) (register-definition-prefixes "lsp-bridge-semantic-tokens" '("lsp-bridge-semantic-tokens-")) (provide 'lsp-bridge-autoloads)) "polymode" ((polymode-core polymode-classes polymode-base polymode-compat polymode-autoloads poly-lock polymode-test-utils polymode-debug polymode-weave polymode polymode-methods polymode-export polymode-tangle) (register-definition-prefixes "poly-lock" '("poly-lock-")) (autoload 'define-polymode "polymode" "Define a new polymode MODE.
+This macro defines command MODE and an indicator variable MODE
+which becomes t when MODE is active and nil otherwise.
 
-#s(hash-table size 65 test eq rehash-size 1.5 rehash-threshold 0.8125 data (org-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 15 "melpa" nil "gnu-elpa-mirror" nil "nongnu-elpa" nil "el-get" nil "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "markdown-mode" nil)) melpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "gnu-elpa-mirror" nil "nongnu-elpa" nil "el-get" (el-get :type git :flavor melpa :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :host github :repo "dimitri/el-get") "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "markdown-mode" (markdown-mode :type git :flavor melpa :host github :repo "jrblevin/markdown-mode"))) gnu-elpa-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 3 "nongnu-elpa" nil "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil)) nongnu-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 4 "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil)) el-get #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil)) emacsmirror-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "straight" (straight :type git :host github :repo "emacsmirror/straight") "lsp-bridge" (lsp-bridge :type git :host github :repo "emacsmirror/lsp-bridge")))))
+MODE command can be used as both major and minor mode. Using
+polymodes as minor modes makes sense when :hostmode (see below)
+is not specified, in which case polymode installs only inner
+modes and doesn't touch current major mode.
 
-("markdown-mode" "lsp-bridge" "emacs" "straight" "emacsmirror-mirror" "el-get" "nongnu-elpa" "gnu-elpa-mirror" "melpa" "org-elpa")
+Standard hook MODE-hook is run at the end of the initialization
+of each polymode buffer (both indirect and base buffers).
+
+This macro also defines the MODE-map keymap from the :keymap
+argument and PARENT-map (see below) and poly-[MODE-NAME]-polymode
+variable which holds an object of class `pm-polymode' which holds
+the entire configuration for this polymode.
+
+PARENT is either the polymode configuration object or a polymode
+mode (there is 1-to-1 correspondence between config
+objects (`pm-polymode') and mode functions). The new polymode
+MODE inherits alll the behavior from PARENT except for the
+overwrites specified by the keywords (see below). The new MODE
+runs all the hooks from the PARENT-mode and inherits its MODE-map
+from PARENT-map.
+
+DOC is an optional documentation string. If present PARENT must
+be provided, but can be nil.
+
+BODY is executed after the complete initialization of the
+polymode but before MODE-hook. It is executed once for each
+polymode buffer - host buffer on initialization and every inner
+buffer subsequently created.
+
+Before the BODY code keyword arguments (i.e. alternating keywords
+and values) are allowed. The following special keywords
+controlling the behavior of the new MODE are supported:
+
+:lighter Optional LIGHTER is displayed in the mode line when the
+   mode is on. If omitted, it defaults to the :lighter slot of
+   CONFIG object.
+
+:keymap If nil, a new MODE-map keymap is created what directly
+  inherits from the PARENT's keymap. The last keymap in the
+  inheritance chain is always `polymode-minor-mode-map'. If a
+  keymap it is used directly as it is. If a list of binding of
+  the form (KEY . BINDING) it is merged the bindings are added to
+  the newly create keymap.
+
+:after-hook A single form which is evaluated after the mode hooks
+  have been run. It should not be quoted.
+
+Other keywords are added to the `pm-polymode' configuration
+object and should be valid slots in PARENT config object or the
+root config `pm-polymode' object if PARENT is nil. By far the
+most frequently used slots are:
+
+:hostmode Symbol pointing to a `pm-host-chunkmode' object
+  specifying the behavior of the hostmode. If missing or nil,
+  MODE will behave as a minor-mode in the sense that it will
+  reuse the currently installed major mode and will install only
+  the inner modes.
+
+:innermodes List of symbols pointing to `pm-inner-chunkmode'
+  objects which specify the behavior of inner modes (or submodes).
+
+(fn MODE &optional PARENT DOC &rest BODY)" nil t) (function-put 'define-polymode 'lisp-indent-function 'defun) (function-put 'define-polymode 'doc-string-elt 3) (register-definition-prefixes "polymode" '("pm-" "poly")) (register-definition-prefixes "polymode-base" '("poly-")) (register-definition-prefixes "polymode-classes" '("pm-")) (register-definition-prefixes "polymode-compat" '("*span*" "pm-" "polymode-")) (defvar-local polymode-default-inner-mode nil "Inner mode for chunks with unspecified modes.
+Intended to be used as local variable in polymode buffers. A
+special value `host' means use the host mode.") (put 'polymode-default-inner-mode 'safe-local-variable #'symbolp) (autoload 'define-hostmode "polymode-core" "Define a hostmode with name NAME.
+Optional PARENT is a name of a hostmode to be derived (cloned)
+from. If missing, the optional documentation string DOC is
+generated automatically. KEY-ARGS is a list of key-value pairs.
+See the documentation of the class `pm-host-chunkmode' for
+possible values.
+
+(fn NAME &optional PARENT DOC &rest KEY-ARGS)" nil t) (function-put 'define-hostmode 'doc-string-elt 3) (function-put 'define-hostmode 'lisp-indent-function 'defun) (autoload 'define-innermode "polymode-core" "Ddefine an innermode with name NAME.
+Optional PARENT is a name of a innermode to be derived (cloned)
+from. If missing the optional documentation string DOC is
+generated automatically. KEY-ARGS is a list of key-value pairs.
+See the documentation of the class `pm-inner-chunkmode' for
+possible values.
+
+(fn NAME &optional PARENT DOC &rest KEY-ARGS)" nil t) (function-put 'define-innermode 'doc-string-elt 3) (function-put 'define-innermode 'lisp-indent-function 'defun) (autoload 'define-auto-innermode "polymode-core" "Ddefine an auto innermode with name NAME.
+Optional PARENT is a name of an auto innermode to be
+derived (cloned) from. If missing the optional documentation
+string DOC is generated automatically. KEY-ARGS is a list of
+key-value pairs. See the documentation of the class
+`pm-inner-auto-chunkmode' for possible values.
+
+(fn NAME &optional PARENT DOC &rest KEY-ARGS)" nil t) (function-put 'define-auto-innermode 'doc-string-elt 3) (function-put 'define-auto-innermode 'lisp-indent-function 'defun) (register-definition-prefixes "polymode-core" '("*span*" "polymode-")) (autoload 'pm-debug-minor-mode "polymode-debug" "Turns on/off useful facilities for debugging polymode.
+
+Key bindings:
+\\{pm-debug-minor-mode-map}
+
+This is a minor mode.  If called interactively, toggle the
+`Pm-Debug minor mode' mode.  If the prefix argument is positive,
+enable the mode, and if it is zero or negative, disable the mode.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
+the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+To check whether the minor mode is enabled in the current buffer,
+evaluate `pm-debug-minor-mode'.
+
+The mode's hook is called both when the mode is enabled and when
+it is disabled.
+
+(fn &optional ARG)" t) (autoload 'pm-debug-minor-mode-on "polymode-debug") (put 'pm-debug-mode 'globalized-minor-mode t) (defvar pm-debug-mode nil "Non-nil if Pm-Debug mode is enabled.
+See the `pm-debug-mode' command
+for a description of this minor mode.
+Setting this variable directly does not take effect;
+either customize it (see the info node `Easy Customization')
+or call the function `pm-debug-mode'.") (custom-autoload 'pm-debug-mode "polymode-debug" nil) (autoload 'pm-debug-mode "polymode-debug" "Toggle Pm-Debug minor mode in all buffers.
+With prefix ARG, enable Pm-Debug mode if ARG is positive; otherwise,
+disable it.
+
+If called from Lisp, toggle the mode if ARG is `toggle'.
+Enable the mode if ARG is nil, omitted, or is a positive number.
+Disable the mode if ARG is a negative number.
+
+Pm-Debug minor mode is enabled in all buffers where
+`pm-debug-minor-mode-on' would do it.
+
+See `pm-debug-minor-mode' for more information on Pm-Debug minor
+mode.
+
+(fn &optional ARG)" t) (autoload 'pm-toggle-tracing "polymode-debug" "Toggle polymode tracing.
+With numeric prefix toggle tracing for that LEVEL. Currently
+universal argument toggles maximum level of tracing (15). See
+`pm-traced-functions'. Default level is 4.
+
+(fn LEVEL)" t) (autoload 'pm-trace "polymode-debug" "Trace function FN.
+Use `untrace-function' to untrace or `untrace-all' to untrace all
+currently traced functions.
+
+(fn FN)" t) (autoload 'pm-debug-relevant-variables "polymode-debug" "Get the relevant polymode variables.
+If OUT-TYPE is `buffer', print the variables in the dedicated buffer,
+if `message' issue a message, if nil just return a list of values.
+
+(fn &optional OUT-TYPE)" t) (register-definition-prefixes "polymode-debug" '("pm-")) (register-definition-prefixes "polymode-export" '("pm-" "poly")) (register-definition-prefixes "polymode-methods" '("pm-")) (register-definition-prefixes "polymode-test-utils" '("pm-")) (register-definition-prefixes "polymode-weave" '("pm-" "polymode-")) (provide 'polymode-autoloads)) "typst-mode" ((typst-mode typst-mode-autoloads) (add-to-list 'auto-mode-alist '("\\.typ\\'" . typst-mode)) (register-definition-prefixes "typst-mode" '("typst-")) (provide 'typst-mode-autoloads))))
+
+#s(hash-table size 65 test eq rehash-size 1.5 rehash-threshold 0.8125 data (org-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 15 "melpa" nil "gnu-elpa-mirror" nil "nongnu-elpa" nil "el-get" nil "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "markdown-mode" nil "typst-mode" nil "polymode" nil)) melpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "gnu-elpa-mirror" nil "nongnu-elpa" nil "el-get" (el-get :type git :flavor melpa :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :host github :repo "dimitri/el-get") "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "markdown-mode" (markdown-mode :type git :flavor melpa :host github :repo "jrblevin/markdown-mode") "typst-mode" nil "polymode" (polymode :type git :flavor melpa :host github :repo "polymode/polymode"))) gnu-elpa-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 3 "nongnu-elpa" nil "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil)) nongnu-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 4 "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil)) el-get #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil)) emacsmirror-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "straight" (straight :type git :host github :repo "emacsmirror/straight") "lsp-bridge" (lsp-bridge :type git :host github :repo "emacsmirror/lsp-bridge") "typst-mode" (typst-mode :type git :host github :repo "emacsattic/typst-mode")))))
+
+("polymode" "typst-mode" "markdown-mode" "lsp-bridge" "emacs" "straight" "emacsmirror-mirror" "el-get" "nongnu-elpa" "gnu-elpa-mirror" "melpa" "org-elpa")
 
 t
