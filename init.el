@@ -43,6 +43,8 @@
   (require 'init-nerd-icons)
   (require 'init-all-the-icons)
   (require 'init-org)
+  (require 'init-org-contrib)
+  (require 'init-org-modern)
   (require 'init-org-roam)
   (require 'init-latex)
   (require 'init-org-download)
