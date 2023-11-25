@@ -25,15 +25,6 @@
 
 (setq package-enable-at-startup nil)
 
-;; open pixel-scroll
-(pixel-scroll-mode t)
-(pixel-scroll-precision-mode t)
-
-;; open display-line-numbers
-(add-hook 'prog-mode-hook 'display-line-numbers-mode)
-
-;; open electric pair
-(electric-pair-mode 1)
 
 ;; loading lisp directory
 (let ((dir (locate-user-emacs-file "lisp")))
@@ -42,6 +33,9 @@
 ;; loading other packages
 ;; not showing meassgae in`*message*' buffer
 (with-temp-message ""
+  (require 'init-pixel-scroll)
+  (require 'init-number)
+  (require 'init-pair)
   (require 'init-package)
   (require 'init-treesit)
   (require 'init-theme)
@@ -60,6 +54,7 @@
   (require 'init-marginalia)
   (require 'init-yasnippet)
   (require 'init-lsp-bridge)
+  (require 'init-savehist)
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
