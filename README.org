@@ -33,6 +33,16 @@ To achieve these goals, I aim to use as few third-party packages as possible.I h
 - dashboard
 - ...
 
+If you use my configuration, you will gain the following features:
+- Responsive performance.
+- Python autocompletion.
+- LaTeX autocompletion.
+- Bash script autocompletion.
+- File path autocompletion.
+- XeLaTeX compilation.
+- Card note-taking.
+- Displaying mathematical formulas in Org mode.
+
 You can find my configurations for these packages in the ~lisp~ directory.
 
 ** Supported Emacs versions
