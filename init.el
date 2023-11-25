@@ -48,6 +48,8 @@
   (require 'init-org-roam)
   (require 'init-latex)
   (require 'init-org-download)
+  (require 'init-plantuml)
+  (require 'init-mermaid)
   (require 'init-texfrag)
   (require 'init-fragtog)
   (require 'init-cdlatex)

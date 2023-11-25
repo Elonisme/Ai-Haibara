@@ -15,3 +15,9 @@ sudo pacman -S xclip
 
 # pdf viewer
 sudo pacman -S evince
+
+# mermaid-cli
+yay -S mermaid-cli
+
+# plantuml
+sudo pacman -S plantuml 
