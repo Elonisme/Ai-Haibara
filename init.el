@@ -60,6 +60,7 @@
   (require 'init-lsp-bridge)
   (require 'init-savehist)
   (require 'init-typst)
+  (require 'init-zotxt)
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
