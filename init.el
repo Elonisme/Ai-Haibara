@@ -30,6 +30,12 @@
 (let ((dir (locate-user-emacs-file "lisp")))
   (add-to-list 'load-path (file-name-as-directory dir)))
 
+;; use y or n replace yes or no
+(fset 'yes-or-no-p 'y-or-n-p)
+
+;; open save-place
+(save-place-mode 1)
+
 ;; loading other packages
 ;; not showing meassgae in`*message*' buffer
 (with-temp-message ""
@@ -43,6 +49,7 @@
   (require 'init-nerd-icons)
   (require 'init-all-the-icons)
   (require 'init-org)
+  (require 'init-org-noter)
   (require 'init-org-contrib)
   (require 'init-org-modern)
   (require 'init-org-roam)
@@ -61,6 +68,7 @@
   (require 'init-savehist)
   (require 'init-typst)
   (require 'init-zotxt)
+  (require 'init-rime)
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

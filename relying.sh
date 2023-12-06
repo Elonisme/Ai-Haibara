@@ -9,6 +9,8 @@ sudo pacman -S bash-language-server
 sudo pacman -S texlab
 # python lsp-server
 sudo pacman -S pyright
+# typst lsp
+yay -S typst-lsp-bin
 
 # org-download requirements
 sudo pacman -S xclip

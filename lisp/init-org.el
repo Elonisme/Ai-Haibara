@@ -12,6 +12,8 @@
   ;; auto open inline-images
   (setq org-startup-with-inline-images t)
   
+  (setq org-hide-emphasis-markers t)
+  
   ;; use xelatex to produce chinese pdf in org mode
   (setq org-latex-pdf-process
 	'("xelatex -shell-escape -interaction nonstopmode -output-directory %o %f"
