@@ -3,9 +3,9 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/org-roam/20231202155530-uboot.org")
- (front-context-string)
- (rear-context-string . "\n#+title: Uboot\n")
- (position . 83)
- (last-modified 25962 58116 203333 933000))
+ (filename . "~/org-roam/20231218162255-latex_plot.org")
+ (front-context-string . "\n\n#+BEGIN_LaTeX\n")
+ (rear-context-string . "tle: Latex_Plot\n")
+ (position . 88)
+ (last-modified 25984 413 4421 654000))
 )

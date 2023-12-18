@@ -16,8 +16,7 @@
   (setq TeX-source-correlate-start-server t) ;; 不再询问是否开启服务器以执行反向搜索
   ;;;LaTeX config
   (add-to-list 'TeX-command-list '("XeLaTeX" "%`xelatex -shell-escape --synctex=1%(mode)%' %t" TeX-run-TeX nil t))
-  ) ; 加载LaTeX模式钩子
-
+ ) ; 加载LaTeX模式钩子
 
 (provide 'init-latex)
 
