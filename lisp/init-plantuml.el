@@ -5,21 +5,36 @@
 
 (use-package plantuml-mode
   :ensure t
+  :custom
+  (plantuml-output-type "svg")
+  (plantuml-default-exec-mode 'jar)
+  (plantuml-jar-path "~/.emacs.d/plantuml.jar")
+  (plantuml-executable-args '("-charset" "utf-8"))
   :config
-  (add-to-list 'org-src-lang-modes '("plantuml" . plantuml))
-  (org-babel-do-load-languages 'org-babel-load-languages
-                               (append org-babel-load-languages
-                                       '((plantuml . t))))
-  (setq org-plantuml-exec-mode 'plantuml)
-  (setq org-plantuml-executable-path "plantuml")
-  (setq plantuml-executable-path "plantuml")
-  (setq plantuml-default-exec-mode 'executable)
-  ;; set default babel header arguments
-  (setq org-babel-default-header-args:plantuml
-        '((:exports . "results")
-          (:results . "file")
-          ))
-  )
+  (add-to-list 'auto-mode-alist '("\\.puml\\'" . plantuml-mode))
+  (add-hook 'org-babel-after-execute-hook 'org-toggle-inline-images)
+)
+
+(use-package ob-plantuml
+  :ensure nil
+  :config
+  (require 'plantuml-mode)
+  ;; WARNING: if variables are from other package, setq them at :config
+  (setq org-plantuml-jar-path plantuml-jar-path)
+  (setq org-plantuml-args plantuml-executable-args)
+  (add-to-list 'org-src-lang-modes '("plantuml" . plantuml)))
+
+(use-package image-mode
+  :ensure nil
+  :custom
+  (image-auto-resize 'fit-window)
+  :config
+  (add-to-list 'auto-mode-alist '("\\.svg\\'" . image-mode)))
+
+(use-package graphviz-dot-mode
+  :ensure t
+  :custom
+  (graphviz-dot-preview-extension "svg"))
 
 (provide 'init-plantuml)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
