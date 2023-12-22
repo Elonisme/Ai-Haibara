@@ -13,7 +13,7 @@
   :custom
   (org-download-heading-lvl 1) ;; 用一级标题给截图文件命名
   :config
-  (setq-default org-download-image-dir "./img")) ;; 用同级 ./img 目录放置截图文件
+  (setq-default org-download-image-dir "./imgs")) ;; 用同级 ./img 目录放置截图文件
 (add-hook 'dired-mode-hook 'org-download-enable)
 
 (provide 'init-org-download)

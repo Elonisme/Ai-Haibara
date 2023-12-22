@@ -11,7 +11,8 @@
   
   ;; auto open inline-images
   (setq org-startup-with-inline-images t)
-  
+  (setq org-startup-with-latex-preview t)
+  (setq org-format-latex-options (plist-put org-format-latex-options :scale 1.5))
   (setq org-hide-emphasis-markers t)
   
   ;; use xelatex to produce chinese pdf in org mode
@@ -35,10 +36,10 @@
   (defun prettify-symbols-in-org-mode ()
     "Beautify Org Symbols"
     (push '(":category:" . "▲") prettify-symbols-alist)
-    (push '(":PROPERTIES:" . "🗅") prettify-symbols-alist)
+    (push '(":PROPERTIES:" . "📄") prettify-symbols-alist)
     (push '(":END:" . "∎") prettify-symbols-alist)
-    (push '("#+TITLE:" . "🗎") prettify-symbols-alist)
-    (push '("#+SUBTITLE:" . "⮱") prettify-symbols-alist)
+    (push '("#+title:" . "📑") prettify-symbols-alist)
+    (push '("#+subtitle:" . "⮱") prettify-symbols-alist)
     (push '(":SETTINGS:" . "⌘") prettify-symbols-alist)
     (push '("#+BEGIN_SRC" . "«" ) prettify-symbols-alist)
     (push '("#+END_SRC" . "»" ) prettify-symbols-alist)
