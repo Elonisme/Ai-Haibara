@@ -59,3 +59,7 @@ site-lisp/package/
 /forge-*.sqlite
 org-roam.db
 places/
+bookmarks
+places
+multisession/files/emoji
+multisession/
