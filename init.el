@@ -9,6 +9,11 @@
 (setq inhibit-splash-screen t) ; Remove the "Welcome to GNU Emacs" splash screen
 (setq use-file-dialog nil)      ; Ask for textual confirmation instead of GUI
 
+;; open save-place
+(save-place-mode 1)
+
+;; cancel backup
+(setq make-backup-files nil)
 
 ;; set straight.el
 (defvar bootstrap-version)
@@ -30,8 +35,6 @@
                          ("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
                          ("melpa"  . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
 
-
-(setq package-enable-at-startup nil)
 
 ;; loading lisp directory
 (let ((dir (locate-user-emacs-file "lisp")))
@@ -71,13 +74,6 @@
   :init
   (setq-default indent-tabs-mode nil)
   (setq-default tab-width 2))
-
-
-;; open save-place
-(save-place-mode 1)
-
-;; cancel backup
-(setq make-backup-files nil)
 
 ;; loading other packages
 ;; not showing meassgae in`*message*' buffer
