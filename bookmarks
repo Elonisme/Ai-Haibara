@@ -3,9 +3,9 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/org-roam/20231222185429-orgmode显示中文.org")
- (front-context-string)
- (rear-context-string . "le: OrgMode显示中文\n")
- (position . 89)
- (last-modified 25989 27366 262115 315000))
+ (filename . "~/org-roam/20231226165740-spectacle.org")
+ (front-context-string . "#+TITLE: 示例幻灯片\n\n")
+ (rear-context-string . "itle: Spectacle\n")
+ (position . 87)
+ (last-modified 25994 38279 996914 459000))
 )

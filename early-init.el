@@ -3,17 +3,11 @@
 
 ;;; Code:
 
+;; Don't flicker GUI elements on startup
+(push '(menu-bar-lines . 0) default-frame-alist)
+(push '(tool-bar-lines . 0) default-frame-alist)
+(push '(vertical-scroll-bars) default-frame-alist)
 
-;; disable inhibit-starup
-(setq inhibit-startup-message t)
-;; disable tool-bar
-(tool-bar-mode 0)
-;; disable menu-bar
-(menu-bar-mode 0)
-;; disable scroll-bar
-(scroll-bar-mode 0)
-;; disable auto backup
-(setq make-backup-files nil)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;; early-init.el ends here

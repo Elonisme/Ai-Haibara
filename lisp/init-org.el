@@ -18,7 +18,8 @@
 
   (org-babel-do-load-languages
    'org-babel-load-languages
-   '((latex . t)))
+   '((latex . t)
+     (python .t)))
 
   ;; use xelatex to produce Chinese PDF in org mode
   (setq org-latex-pdf-process
@@ -66,9 +67,14 @@
     (push '(":SETTINGS:" . "⌘") prettify-symbols-alist)
     (push '("#+BEGIN_SRC" . "«" ) prettify-symbols-alist)
     (push '("#+END_SRC" . "»" ) prettify-symbols-alist)
+    (push '("#+RESULTS" . "➱" ) prettify-symbols-alist)
     (push '("#+BEGIN_COMMENT" . "♯" ) prettify-symbols-alist)
     (push '("#+END_COMMENT" . "▪" ) prettify-symbols-alist)
     (prettify-symbols-mode)))
+
+(use-package ox-spectacle
+   :ensure t
+)
 
 (provide 'init-org)
 

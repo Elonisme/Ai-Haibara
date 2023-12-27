@@ -3,8 +3,8 @@
 # key: <hugo
 # --
 #+OPTIONS: author: Elon Li
-#+HUGO_BASE_DIR: /home/elon/hugo_blog/blogsite
-#+HUGO_SECTION: posts
+#+HUGO_BASE_DIR: ~/Documents/Blog/myBlog
+#+HUGO_SECTION: post
 #+HUGO_PUBLISHDATE: `(format-time-string "%Y-%m-%d")`
 #+HUGO_CUSTOM_FRONT_MATTER: :hide - header - footer
 #+HUGO_DRAFT: false

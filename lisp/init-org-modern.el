@@ -4,12 +4,13 @@
 ;;; Code:
 
 (use-package org-modern
+  :ensure t
   :custom
   ;; https://github.com/minad/org-modern/issues/134
   (org-modern-star '("○" "●" "▼"))
   (org-modern-list
-   '((?- . "▬")
-     (?+ . "♦")
+   '((?- . "‧")
+     (?+ . "►")
      (?* . "●")))
   (org-modern-checkbox
    '((?X . "☑")
