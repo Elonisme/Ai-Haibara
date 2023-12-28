@@ -9,12 +9,6 @@
 (setq inhibit-splash-screen t) ; Remove the "Welcome to GNU Emacs" splash screen
 (setq use-file-dialog nil)      ; Ask for textual confirmation instead of GUI
 
-;; open save-place
-(save-place-mode 1)
-
-;; cancel backup
-(setq make-backup-files nil)
-
 ;; set straight.el
 (defvar bootstrap-version)
 (let ((bootstrap-file
@@ -40,16 +34,18 @@
 (let ((dir (locate-user-emacs-file "lisp")))
   (add-to-list 'load-path (file-name-as-directory dir)))
 
-;; Always :defer t
-(setq use-package-always-defer t)
-
 ;; Remove initial scratch message and "For information about GNU Emacs and the 
 ;; GNU system, type C-h C-a"
 (use-package emacs
   :init
-  (setq initial-scratch-message nil)
+   (setq initial-scratch-message
+        (concat ";; Happy hacking, "
+                (capitalize user-login-name) " - Emacs ♥ you!\n\n"))
   (defun display-startup-echo-area-message ()
     (message "")))
+
+;; Always :defer t
+(setq use-package-always-defer t)
 
 ;; Allow y/n instead of having to type yes/no
 (use-package emacs
@@ -75,6 +71,12 @@
   (setq-default indent-tabs-mode nil)
   (setq-default tab-width 2))
 
+;; open save-place
+(save-place-mode 1)
+
+;; cancel backup
+(setq make-backup-files nil)
+
 ;; loading other packages
 ;; not showing meassgae in`*message*' buffer
 (with-temp-message ""
@@ -95,7 +97,6 @@
   (require 'init-latex)
   (require 'init-org-download)
   (require 'init-plantuml)
-;;  (require 'init-texfrag)
   (require 'init-fragtog)
   (require 'init-cdlatex)
   (require 'init-vertico)
