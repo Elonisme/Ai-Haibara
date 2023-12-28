@@ -18,6 +18,16 @@
     (setq dashboard-icon-type 'nerd-icons) ;; use `nerd-icons' package
     (setq dashboard-set-heading-icons t)
     (setq dashboard-set-file-icons t)
+
+    ;; Define the copyright function
+    (defun my-dashboard-insert-copyright ()
+      "Insert copyright in the footer."
+      (when dashboard-set-footer
+        (dashboard-insert-center
+         (propertize (format "\n♥️ Powered by Elon Li, %s\n" (format-time-string "%Y"))
+                     'face 'font-lock-comment-face))))
+    ;; Add the copyright function as advice to dashboard-insert-footer
+    (advice-add #'dashboard-insert-footer :after #'my-dashboard-insert-copyright)
     )
   :config
   (dashboard-setup-startup-hook)
