@@ -8,10 +8,8 @@
             :files (:defaults "*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
             :build (:not compile))
   :hook
-  (python-ts-mode . lsp-bridge-mode)
-  (LaTeX-mode . lsp-bridge-mode)
-  (c-ts-mode . lsp-bridge-mode)
-  (rust-ts-mode . lsp-bridge-mode)
+  (prog-mode . lsp-bridge-mode)
+  (LaTex-mode . lsp-bridge-mode)
   )
 
 (provide 'init-lsp-bridge)
