@@ -5,10 +5,12 @@
 
 (use-package lsp-bridge
   :straight '(lsp-bridge :type git :host github :repo "manateelazycat/lsp-bridge"
-            :files (:defaults "*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
-            :build (:not compile))
+                         :files (:defaults "*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources")
+                         :build (:not compile))
   :hook
   (prog-mode . lsp-bridge-mode)
+  (org-mode . lsp-bridge-mode)
+  (typst-mode . lsp-bridge-mode)
   (LaTex-mode . lsp-bridge-mode)
   )
 
