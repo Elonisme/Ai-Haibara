@@ -1,4 +1,4 @@
-;;; init-org.el -- hugo settings -*-  lexical-binding: t -*-
+;;; init-org.el -- org settings -*-  lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:

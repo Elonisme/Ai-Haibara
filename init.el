@@ -64,6 +64,7 @@
   (require 'init-rime)
   (require 'init-translate)
   (require 'init-adoc-mode)
+  (require 'init-eaf)
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

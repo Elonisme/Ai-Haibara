@@ -16,7 +16,11 @@
   (setq TeX-source-correlate-start-server t) ;; 不再询问是否开启服务器以执行反向搜索
   ;;;LaTeX config
   (add-to-list 'TeX-command-list '("XeLaTeX" "%`xelatex -shell-escape --synctex=1%(mode)%' %t" TeX-run-TeX nil t))
- ) ; 加载LaTeX模式钩子
+  (add-to-list 'TeX-view-program-selection '(output-pdf "eaf"))
+  ;;(add-to-list 'TeX-command-list '("XeLaTeX" "%`xelatex --synctex=1%(mode)%' %t" TeX-run-TeX nil t))
+  (add-to-list 'TeX-view-program-list '("eaf" eaf-pdf-synctex-forward-view))
+  (add-to-list 'TeX-view-program-selection '(output-pdf "eaf"))
+  ) ; 加载LaTeX模式钩子
 
 (provide 'init-latex)
 
