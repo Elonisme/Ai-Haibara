@@ -29,7 +29,7 @@
   (setq org-image-actual-width '(400))
 
   ;; Improve org mode looks
-  (setq-default org-startup-indented t
+  (setq-default ;;org-startup-indented t
                 org-pretty-entities t
                 org-use-sub-superscripts "{}"
                 org-hide-emphasis-markers t
@@ -120,6 +120,11 @@
 
 (use-package ox-spectacle
    :ensure t
+)
+
+
+(use-package org-fragtog
+  :ensure t
 )
 
 

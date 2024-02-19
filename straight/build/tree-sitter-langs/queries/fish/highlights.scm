@@ -1,0 +1,1 @@
+/home/elon/.emacs.d/straight/repos/tree-sitter-langs/queries/fish/highlights.scm

@@ -1,1 +1,3 @@
+/home/elon/Documents/Writing/Typst/如何在Arch Linux上安装EAF-PDF-Viewer.pdf
 /home/elon/Documents/Writing/Typst/main.pdf
+/home/elon/Documents/Writing/Typst/typst_in_emacs.pdf

@@ -2,7 +2,6 @@
 ;;; Commentary:
 
 ;;; Code:
-
 ;; set straight.el
 (defvar bootstrap-version)
 (let ((bootstrap-file
@@ -18,10 +17,16 @@
   (load bootstrap-file nil 'nomessage))
 
 
+
+;; Initialize the package management system early
+(package-initialize)
+
 ;; setting mirror site
 (setq package-archives '(("gnu"    . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
                          ("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
                          ("melpa"  . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
+
+
 
 
 ;; loading lisp directory
@@ -59,12 +64,14 @@
   (require 'init-yasnippet)
   (require 'init-lsp-bridge)
   (require 'init-savehist)
-  (require 'init-typst)
   (require 'init-zotxt)
   (require 'init-rime)
   (require 'init-translate)
   (require 'init-adoc-mode)
   (require 'init-eaf)
+  (require 'init-auto-save)
+  (require 'init-typst)
+  (require 'init-hugo)
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
