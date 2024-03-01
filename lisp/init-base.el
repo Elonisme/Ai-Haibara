@@ -49,4 +49,11 @@
 ;; cancel backup
 (setq make-backup-files nil)
 
+;; open visual-line-mode
+(global-visual-line-mode t)
+
+;; auto delete save files
+(setq delete-auto-save-files t)
+
+
 (provide 'init-base)

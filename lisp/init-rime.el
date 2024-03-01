@@ -6,7 +6,9 @@
 (use-package rime
   :ensure t
   :custom
-  (default-input-method "rime"))
+  (default-input-method "rime")
+  (rime-show-candidate 'popup)
+  )
 
 (provide 'init-rime)
 

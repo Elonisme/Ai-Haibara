@@ -21,6 +21,7 @@ schema_list:
   - schema: double_pinyin_mspy     # 微软双拼
   - schema: double_pinyin_sogou    # 搜狗双拼
   - schema: double_pinyin_ziguang  # 紫光双拼
+  - schema: easy_en  # easy en
 
 
 # 菜单
