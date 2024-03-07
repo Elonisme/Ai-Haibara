@@ -1,3 +1,8 @@
+;;; init-translate.el -- init-translate settings -*- lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 (use-package go-translate
   :ensure t
   :config
@@ -19,3 +24,5 @@
   )
 
 (provide 'init-translate)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-translate.el ends here

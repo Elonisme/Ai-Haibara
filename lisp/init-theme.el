@@ -1,4 +1,4 @@
-;;; init-theme.el -- hugo settings -*-  lexical-binding: t -*-
+;;; init-theme.el -- theme settings -*-  lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:
@@ -10,14 +10,18 @@
 
 (use-package tommyh-theme
   :ensure t
-)
+  )
+
+(use-package color-theme-sanityinc-tomorrow
+  :ensure t
+  )
 
 ;; auto-theme-switch.el
 
-(defvar auto-theme-switch-light-theme 'tommyh
+(defvar auto-theme-switch-light-theme 'sanityinc-tomorrow-eighties
   "The light theme to be used during the day.")
 
-(defvar auto-theme-switch-dark-theme 'nordic-night
+(defvar auto-theme-switch-dark-theme 'sanityinc-tomorrow-bright
   "The dark theme to be used during the night.")
 
 (defun auto-theme-switch-set-theme ()

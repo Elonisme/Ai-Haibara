@@ -72,6 +72,8 @@
   (require 'init-auto-save)
   (require 'init-typst)
   (require 'init-hugo)
+  (require 'init-org-capture)
+  (require 'init-wttrin)
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -82,7 +84,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("27eb4bbd908683d344af2a0b90d71698938ab9af1656b1aed87e68258ef8c980" "7c7026a406042e060bce2b56c77d715c3a4e608c31579d336cb825b09e60e827" default)))
+   '("04aa1c3ccaee1cc2b93b246c6fbcd597f7e6832a97aaeac7e5891e6863236f9f" "6fc9e40b4375d9d8d0d9521505849ab4d04220ed470db0b78b700230da0a86c1" "b11edd2e0f97a0a7d5e66a9b82091b44431401ac394478beb44389cf54e6db28" "6bdc4e5f585bb4a500ea38f563ecf126570b9ab3be0598bdf607034bb07a8875" "76ddb2e196c6ba8f380c23d169cf2c8f561fd2013ad54b987c516d3cabc00216" "27eb4bbd908683d344af2a0b90d71698938ab9af1656b1aed87e68258ef8c980" "7c7026a406042e060bce2b56c77d715c3a4e608c31579d336cb825b09e60e827" default)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

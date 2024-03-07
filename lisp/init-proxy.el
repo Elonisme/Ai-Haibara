@@ -1,3 +1,8 @@
+;;; init-proxy.el -- init-proxy settings -*- lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 (setq my-proxy "127.0.0.1:7890")
 
 ;; Configure network proxy
@@ -28,4 +33,8 @@
       (unset-proxy)
     (set-proxy)))
 
+(global-set-key (kbd "C-c p") 'toggle-proxy)
+
 (provide 'init-proxy)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-proxy.el ends here

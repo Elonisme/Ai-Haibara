@@ -1,3 +1,8 @@
+;;; init-base.el -- init-base settings -*- lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 ;; Remove GUI elements
 (tool-bar-mode -1)             ; Hide the outdated icons
 (scroll-bar-mode -1)           ; Hide the always-visible scrollbar
@@ -55,5 +60,6 @@
 ;; auto delete save files
 (setq delete-auto-save-files t)
 
-
 (provide 'init-base)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-base.el ends here

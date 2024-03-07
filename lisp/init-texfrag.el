@@ -1,4 +1,4 @@
-;;; init-texfrag.el -- hugo settings -*-  lexical-binding: t -*-
+;;; init-texfrag.el -- texfrag settings -*-  lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:

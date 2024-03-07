@@ -1,4 +1,4 @@
-;;; init-latex.el -- hugo settings -*-  lexical-binding: t -*-
+;;; init-latex.el -- latex settings -*-  lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:

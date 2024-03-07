@@ -1,4 +1,4 @@
-;;; init-zotxt.el -- hugo settings -*-  lexical-binding: t -*-
+;;; init-zotxt.el -- zotxt settings -*-  lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:

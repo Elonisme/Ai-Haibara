@@ -36,6 +36,7 @@
   (setq dashboard-items '((recents . 6)
                           (bookmarks . 6)
                           ))
+  (add-hook 'dashboard-mode-hook #'which-key-mode)
   )
 
 

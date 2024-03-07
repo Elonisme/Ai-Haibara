@@ -1,4 +1,4 @@
-;;; init-yasnippet.el -- hugo settings -*-  lexical-binding: t -*-
+;;; init-yasnippet.el -- yasnippet settings -*-  lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:

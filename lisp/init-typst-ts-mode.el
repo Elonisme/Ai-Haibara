@@ -1,3 +1,8 @@
+;;; init-typst-ts-mode.el -- init-typst-ts-mode settings -*- lexical-binding: t -*-
+;;; Commentary:
+
+;;; Code:
+
 (use-package typst-ts-mode
   :straight (:type git :host sourcehut :repo "meow_king/typst-ts-mode")
   :custom
@@ -6,3 +11,5 @@
   (typst-ts-mode-highlight-raw-blocks-at-startup t))
 
 (provide 'init-typst-ts-mode)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;; init-typst-ts-mode.el ends here

@@ -1,10 +1,7 @@
-;;; init-org-fragtog.el -- hugo settings -*-  lexical-binding: t -*-
+;;; init-fragtog.el -- init-fragtog settings -*- lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:
-
-;; auto refresh math function
-;; LaTeX previews
 (use-package org-fragtog
   :after org
   :custom
@@ -18,7 +15,5 @@
    (plist-put org-format-latex-options :background 'auto)))
 
 (provide 'init-fragtog)
-
-
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;;;  init-org-fragtog.el ends here
+;;; init-fragtog.el ends here

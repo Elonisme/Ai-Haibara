@@ -1,4 +1,4 @@
-;;; init-all-the-icons.el -- hugo settings -*-  lexical-binding: t -*-
+;;; init-all-the-icons.el -- icons settings -*-  lexical-binding: t -*-
 ;;; Commentary:
 
 ;;; Code:
