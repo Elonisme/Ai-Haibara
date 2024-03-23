@@ -1,1 +1,0 @@
-/home/elon/.emacs.d/straight/repos/typst-ts-mode/typst-ts-embedding-lang-settings.el

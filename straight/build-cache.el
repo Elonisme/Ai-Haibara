@@ -3,7 +3,7 @@
 
 "29.2"
 
-#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("org-elpa" ("2024-03-20 20:30:33" nil (:local-repo nil :package "org-elpa" :type git)) "melpa" ("2024-03-20 20:30:33" nil (:type git :host github :repo "melpa/melpa" :build nil :package "melpa" :local-repo "melpa")) "gnu-elpa-mirror" ("2024-03-20 20:30:33" nil (:type git :host github :repo "emacs-straight/gnu-elpa-mirror" :build nil :package "gnu-elpa-mirror" :local-repo "gnu-elpa-mirror")) "nongnu-elpa" ("2024-03-20 20:30:33" nil (:type git :repo "https://git.savannah.gnu.org/git/emacs/nongnu.git" :depth (full single-branch) :local-repo "nongnu-elpa" :build nil :package "nongnu-elpa")) "el-get" ("2024-03-20 20:30:33" nil (:type git :host github :repo "dimitri/el-get" :build nil :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :flavor melpa :package "el-get" :local-repo "el-get")) "emacsmirror-mirror" ("2024-03-20 20:30:33" nil (:type git :host github :repo "emacs-straight/emacsmirror-mirror" :build nil :package "emacsmirror-mirror" :local-repo "emacsmirror-mirror")) "straight" ("2024-03-20 20:30:33" ("emacs") (:type git :host github :repo "radian-software/straight.el" :files ("straight*.el") :branch "master" :package "straight" :local-repo "straight.el")) "lsp-bridge" ("2024-03-20 20:30:34" ("emacs" "markdown-mode") (:type git :host github :repo "manateelazycat/lsp-bridge" :files (:defaults "*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources") :build (:not compile) :package "lsp-bridge" :local-repo "lsp-bridge")) "markdown-mode" ("2024-03-20 20:30:34" ("emacs") (:type git :flavor melpa :host github :repo "jrblevin/markdown-mode" :package "markdown-mode" :local-repo "markdown-mode")) "typst-mode" ("2024-03-20 20:30:34" ("polymode" "emacs") (:type git :host github :repo "Ziqi-Yang/typst-mode.el" :package "typst-mode" :local-repo "typst-mode.el")) "polymode" ("2024-03-20 20:30:34" ("emacs") (:type git :flavor melpa :host github :repo "polymode/polymode" :package "polymode" :local-repo "polymode")) "typst-ts-mode" ("2024-02-01 20:51:56" ("emacs") (:type git :host sourcehut :repo "meow_king/typst-ts-mode" :package "typst-ts-mode" :local-repo "typst-ts-mode")) "tree-sitter-langs" ("2024-02-01 20:42:58" ("emacs" "tree-sitter") (:type git :flavor melpa :files (:defaults "queries" "tree-sitter-langs-pkg.el") :branch "release" :host github :repo "emacs-tree-sitter/tree-sitter-langs" :package "tree-sitter-langs" :local-repo "tree-sitter-langs")) "tree-sitter" ("2024-02-01 20:42:34" ("emacs" "tsc") (:type git :flavor melpa :files (:defaults (:exclude "lisp/tree-sitter-tests.el") "tree-sitter-pkg.el") :branch "release" :host github :repo "emacs-tree-sitter/elisp-tree-sitter" :package "tree-sitter" :local-repo "elisp-tree-sitter")) "tsc" ("2024-02-01 20:42:33" ("emacs") (:flavor melpa :files ("core/*.el" "core/Cargo.toml" "core/Cargo.lock" "core/src" "tsc-pkg.el") :package "tsc" :local-repo "elisp-tree-sitter" :type git :repo "emacs-tree-sitter/elisp-tree-sitter" :host github :branch "release"))))
+#s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ("2024-03-24 07:56:23" ("emacs") (:type git :host github :repo "radian-software/straight.el" :files ("straight*.el") :branch "master" :package "straight" :local-repo "straight.el")) "org-elpa" ("2024-03-24 07:56:23" nil (:local-repo nil :package "org-elpa" :type git)) "melpa" ("2024-03-24 07:56:23" nil (:type git :host github :repo "melpa/melpa" :build nil :package "melpa" :local-repo "melpa")) "gnu-elpa-mirror" ("2024-03-24 07:56:23" nil (:type git :host github :repo "emacs-straight/gnu-elpa-mirror" :build nil :package "gnu-elpa-mirror" :local-repo "gnu-elpa-mirror")) "nongnu-elpa" ("2024-03-24 07:56:23" nil (:type git :repo "https://git.savannah.gnu.org/git/emacs/nongnu.git" :depth (full single-branch) :local-repo "nongnu-elpa" :build nil :package "nongnu-elpa")) "el-get" ("2024-03-24 07:56:23" nil (:type git :host github :repo "dimitri/el-get" :build nil :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :flavor melpa :package "el-get" :local-repo "el-get")) "emacsmirror-mirror" ("2024-03-24 07:56:23" nil (:type git :host github :repo "emacs-straight/emacsmirror-mirror" :build nil :package "emacsmirror-mirror" :local-repo "emacsmirror-mirror")) "lsp-bridge" ("2024-03-24 07:56:23" ("emacs" "markdown-mode") (:type git :host github :repo "manateelazycat/lsp-bridge" :files (:defaults "*.el" "*.py" "acm" "core" "langserver" "multiserver" "resources") :build (:not compile) :package "lsp-bridge" :local-repo "lsp-bridge")) "markdown-mode" ("2024-03-24 07:56:23" ("emacs") (:type git :flavor melpa :host github :repo "jrblevin/markdown-mode" :package "markdown-mode" :local-repo "markdown-mode")) "typst-mode" ("2024-03-24 07:56:23" ("polymode" "emacs") (:type git :host github :repo "Ziqi-Yang/typst-mode.el" :package "typst-mode" :local-repo "typst-mode.el")) "polymode" ("2024-03-24 07:56:23" ("emacs") (:type git :flavor melpa :host github :repo "polymode/polymode" :package "polymode" :local-repo "polymode"))))
 
 #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data ("straight" ((straight-autoloads straight straight-ert-print-hack straight-x) (autoload 'straight-remove-unused-repos "straight" "Remove unused repositories from the repos and build directories.
 A repo is considered \"unused\" if it was not explicitly requested via
@@ -343,7 +343,7 @@ evaluate `lsp-bridge-mode'.
 The mode's hook is called both when the mode is enabled and when
 it is disabled.
 
-(fn &optional ARG)" t) (autoload 'global-lsp-bridge-mode "lsp-bridge" nil t) (register-definition-prefixes "lsp-bridge" '("acm-library-path" "lsp-bri" "position-before-jump")) (register-definition-prefixes "lsp-bridge-call-hierarchy" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-code-action" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-dart" '("lsp-bridge-dart-")) (register-definition-prefixes "lsp-bridge-diagnostic" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-epc" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-inlay-hint" '("lsp-bridge-inlay-hint")) (register-definition-prefixes "lsp-bridge-jdtls" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-lsp-installer" '("codeium-" "lsp-bridge-" "tabnine-bridge-")) (register-definition-prefixes "lsp-bridge-org-babel" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-peek" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-ref" '("lsp-bridge-ref-")) (register-definition-prefixes "lsp-bridge-semantic-tokens" '("lsp-bridge-semantic-tokens-")) (provide 'lsp-bridge-autoloads)) "polymode" ((polymode-tangle polymode-classes polymode-debug polymode-export polymode-autoloads polymode-weave polymode-base polymode polymode-compat poly-lock polymode-methods polymode-core polymode-test-utils) (register-definition-prefixes "poly-lock" '("poly-lock-")) (autoload 'define-polymode "polymode" "Define a new polymode MODE.
+(fn &optional ARG)" t) (autoload 'global-lsp-bridge-mode "lsp-bridge" nil t) (register-definition-prefixes "lsp-bridge" '("acm-library-path" "lsp-bri" "position-before-jump")) (register-definition-prefixes "lsp-bridge-call-hierarchy" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-code-action" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-dart" '("lsp-bridge-dart-")) (register-definition-prefixes "lsp-bridge-diagnostic" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-epc" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-inlay-hint" '("lsp-bridge-inlay-hint")) (register-definition-prefixes "lsp-bridge-jdtls" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-lsp-installer" '("codeium-" "lsp-bridge-" "tabnine-bridge-")) (register-definition-prefixes "lsp-bridge-org-babel" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-peek" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-ref" '("lsp-bridge-")) (register-definition-prefixes "lsp-bridge-semantic-tokens" '("lsp-bridge-semantic-tokens-")) (provide 'lsp-bridge-autoloads)) "polymode" ((polymode-tangle polymode-classes polymode-debug polymode-export polymode-autoloads polymode-weave polymode-base polymode polymode-compat poly-lock polymode-methods polymode-core polymode-test-utils) (register-definition-prefixes "poly-lock" '("poly-lock-")) (autoload 'define-polymode "polymode" "Define a new polymode MODE.
 This macro defines command MODE and an indicator variable MODE
 which becomes t when MODE is active and nil otherwise.
 
@@ -482,187 +482,9 @@ currently traced functions.
 If OUT-TYPE is `buffer', print the variables in the dedicated buffer,
 if `message' issue a message, if nil just return a list of values.
 
-(fn &optional OUT-TYPE)" t) (register-definition-prefixes "polymode-debug" '("pm-")) (register-definition-prefixes "polymode-export" '("pm-" "poly")) (register-definition-prefixes "polymode-methods" '("pm-")) (register-definition-prefixes "polymode-test-utils" '("pm-")) (register-definition-prefixes "polymode-weave" '("pm-" "polymode-")) (provide 'polymode-autoloads)) "typst-mode" ((typst-mode typst-mode-autoloads) (add-to-list 'auto-mode-alist '("\\.typ\\'" . typst-mode)) (register-definition-prefixes "typst-mode" '("typst-")) (provide 'typst-mode-autoloads)) "typst-ts-mode" ((typst-ts-mode-autoloads typst-ts-mode typst-ts-embedding-lang-settings) (autoload 'typst-ts-els--add-lang-tags-relationship "typst-ts-embedding-lang-settings" "Add or modify language tags relationship.
-This function will make changes to `typst-ts-els-lang-tags-map' and
-`typst-ts-els-tag-lang-map'.
-LANG: either a symbol or string.
-TAGS: either a string or a list of strings.
+(fn &optional OUT-TYPE)" t) (register-definition-prefixes "polymode-debug" '("pm-")) (register-definition-prefixes "polymode-export" '("pm-" "poly")) (register-definition-prefixes "polymode-methods" '("pm-")) (register-definition-prefixes "polymode-test-utils" '("pm-")) (register-definition-prefixes "polymode-weave" '("pm-" "polymode-")) (provide 'polymode-autoloads)) "typst-mode" ((typst-mode typst-mode-autoloads) (add-to-list 'auto-mode-alist '("\\.typ\\'" . typst-mode)) (register-definition-prefixes "typst-mode" '("typst-")) (provide 'typst-mode-autoloads))))
 
-(fn LANG TAGS)") (autoload 'typst-ts-els--lang-name-remap "typst-ts-embedding-lang-settings" "Remap language name to a new language name.
-This function will remap lang to newlang for `typst-ts-els-lang-tags-map' and
-`typst-ts-els-tag-lang-map'.
-LANG and NEWLANG: either a symbol or string.
-
-(fn LANG NEWLANG)") (register-definition-prefixes "typst-ts-embedding-lang-settings" '("typst-ts-")) (autoload 'typst-ts-mode-heading-up "typst-ts-mode" "Switch the current heading with the heading above." t) (autoload 'typst-ts-mode-heading-down "typst-ts-mode" "Switch the current heading with the heading below." t) (autoload 'typst-ts-mode-heading-increase "typst-ts-mode" "Increase the heading level." t) (autoload 'typst-ts-mode-heading-decrease "typst-ts-mode" "Decrease heading level." t) (autoload 'typst-ts-mode-preview "typst-ts-mode" "Open the result compile file.
-FILE: file path for the result compile file.
-
-(fn FILE)" t) (autoload 'typst-ts-mode-compile-and-preview "typst-ts-mode" "Compile & Preview.
-Assuming the compile output file name is in default style." t) (autoload 'typst-ts-mode-display-watch-buffer "typst-ts-mode" "Display typst watch process buffer." t) (autoload 'typst-ts-mode-watch "typst-ts-mode" "Watch(hot compile) current typst file." t) (autoload 'typst-ts-mode-watch-stop "typst-ts-mode" "Stop watch process." t) (autoload 'typst-ts-mode-watch-toggle "typst-ts-mode" "Toggle watch process." t) (autoload 'typst-ts-compilation-mode "typst-ts-mode" "Customized major mode for typst watch compilation.
-
-(fn)") (autoload 'typst-ts-mode-cycle "typst-ts-mode" "Cycle.
-ARG.
-TODO lack of documentation.
-
-(fn &optional ARG)" t) (defvar typst-ts-mode-map (let ((map (make-sparse-keymap))) (define-key map (kbd "C-c C-c c") #'typst-ts-mode-compile-and-preview) (define-key map (kbd "C-c C-c C") #'typst-ts-mode-compile) (define-key map (kbd "C-c C-c w") #'typst-ts-mode-watch-toggle) (define-key map (kbd "C-c C-c p") #'typst-ts-mode-preview) (define-key map (kbd "M-<left>") #'typst-ts-mode-heading-decrease) (define-key map (kbd "M-<right>") #'typst-ts-mode-heading-increase) (define-key map (kbd "M-<down>") #'typst-ts-mode-heading-down) (define-key map (kbd "M-<up>") #'typst-ts-mode-heading-up) (define-key map (kbd "TAB") #'typst-ts-mode-cycle) map)) (autoload 'typst-ts-mode "typst-ts-mode" "Major mode for editing Typst, powered by tree-sitter.
-
-(fn)" t) (add-to-list 'auto-mode-alist '("\\.typ\\'" . typst-ts-mode)) (register-definition-prefixes "typst-ts-mode" '("typst-ts-")) (provide 'typst-ts-mode-autoloads)) "tsc" ((tsc-autoloads tsc tsc-obsolete tsc-dyn-get) (register-definition-prefixes "tsc" '("tsc-")) (register-definition-prefixes "tsc-dyn-get" '("tsc-")) (provide 'tsc-autoloads)) "tree-sitter" ((tree-sitter-query tree-sitter-debug tree-sitter-extras tree-sitter-autoloads tree-sitter-hl tree-sitter tree-sitter-load tree-sitter-cli) (autoload 'tree-sitter-mode "tree-sitter" "Minor mode that keeps an up-to-date syntax tree using incremental parsing.
-
-This is a minor mode.  If called interactively, toggle the
-`tree-sitter mode' mode.  If the prefix argument is positive,
-enable the mode, and if it is zero or negative, disable the mode.
-
-If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
-the mode if ARG is nil, omitted, or is a positive number.
-Disable the mode if ARG is a negative number.
-
-To check whether the minor mode is enabled in the current buffer,
-evaluate `tree-sitter-mode'.
-
-The mode's hook is called both when the mode is enabled and when
-it is disabled.
-
-(fn &optional ARG)" t) (autoload 'turn-on-tree-sitter-mode "tree-sitter" "Turn on `tree-sitter-mode' in a buffer, if possible.") (put 'global-tree-sitter-mode 'globalized-minor-mode t) (defvar global-tree-sitter-mode nil "Non-nil if Global Tree-Sitter mode is enabled.
-See the `global-tree-sitter-mode' command
-for a description of this minor mode.
-Setting this variable directly does not take effect;
-either customize it (see the info node `Easy Customization')
-or call the function `global-tree-sitter-mode'.") (custom-autoload 'global-tree-sitter-mode "tree-sitter" nil) (autoload 'global-tree-sitter-mode "tree-sitter" "Toggle Tree-Sitter mode in all buffers.
-With prefix ARG, enable Global Tree-Sitter mode if ARG is positive;
-otherwise, disable it.
-
-If called from Lisp, toggle the mode if ARG is `toggle'.
-Enable the mode if ARG is nil, omitted, or is a positive number.
-Disable the mode if ARG is a negative number.
-
-Tree-Sitter mode is enabled in all buffers where
-`turn-on-tree-sitter-mode' would do it.
-
-See `tree-sitter-mode' for more information on Tree-Sitter mode.
-
-(fn &optional ARG)" t) (define-obsolete-function-alias 'tree-sitter-node-at-point 'tree-sitter-node-at-pos "2021-08-30") (autoload 'tree-sitter-node-at-pos "tree-sitter" "Return the smallest syntax node of type NODE-TYPE at POS.
-NODE-TYPE may be a symbol, corresponding to a named syntax node; a string,
-corresponding to an anonymous node, or a keyword, holding a special value. For
-the special value `:named', return the smallest named node at POS. For the
-special value `:anonymous', return the smallest anonymous node at POS. IF POS is
-nil, POS defaults to the point. Unless IGNORE-INVALID-TYPE is non-nil, signal an
-error when a specified named NODE-TYPE does not exist in the current grammar.
-Whenever NODE-TYPE is non-nil (other than `:named'), it is possible for the
-function to return nil.
-
-(fn &optional NODE-TYPE POS IGNORE-INVALID-TYPE)") (register-definition-prefixes "tree-sitter" '("tree-sitter-")) (register-definition-prefixes "tree-sitter-cli" '("tree-sitter-cli-")) (autoload 'tree-sitter-debug-mode "tree-sitter-debug" "Toggle syntax tree debugging for the current buffer.
-
-This mode displays the syntax tree in another buffer, and keeps it up-to-date.
-
-This is a minor mode.  If called interactively, toggle the
-`Tree-Sitter-Debug mode' mode.  If the prefix argument is
-positive, enable the mode, and if it is zero or negative, disable
-the mode.
-
-If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
-the mode if ARG is nil, omitted, or is a positive number.
-Disable the mode if ARG is a negative number.
-
-To check whether the minor mode is enabled in the current buffer,
-evaluate `tree-sitter-debug-mode'.
-
-The mode's hook is called both when the mode is enabled and when
-it is disabled.
-
-(fn &optional ARG)" t) (autoload 'tree-sitter-debug-query "tree-sitter-debug" "Execute query PATTERNS against the current syntax tree and return captures.
-
-If the optional arg MATCHES is non-nil, matches (from `tsc-query-matches') are
-returned instead of captures (from `tsc-query-captures').
-
-If the optional arg TAG-ASSIGNER is non-nil, it is passed to `tsc-make-query' to
-assign custom tags to capture names.
-
-This function is primarily useful for debugging purpose. Other packages should
-build queries and cursors once, then reuse them.
-
-(fn PATTERNS &optional MATCHES TAG-ASSIGNER)") (register-definition-prefixes "tree-sitter-debug" '("tree-sitter-debug-")) (autoload 'tree-sitter-save-excursion "tree-sitter-extras" "Save the current location within the syntax tree; execute BODY; restore it.
-
-If the original location cannot be restored due to the syntax tree changing too
-much, this macro behaves like `save-excursion', unless
-`tree-sitter-save-excursion-try-hard' is non-nil, in which case it tries to get
-as close as possible to the original location.
-
-After the location is restored, the buffer text is scrolled so that point stays
-at roughly the same vertical screen position. If `pixel-scroll' is available and
-`tree-sitter-save-excursion-pixelwise' is non-nil, pixelwise scrolling is used
-instead, to make this restoration exact.
-
-(fn &rest BODY)" nil t) (function-put 'tree-sitter-save-excursion 'lisp-indent-function 0) (register-definition-prefixes "tree-sitter-extras" '("tree-sitter-")) (autoload 'tree-sitter-hl-add-patterns "tree-sitter-hl" "Add custom syntax highlighting PATTERNS.
-If LANG-SYMBOL is non-nil, it identifies the language that PATTERNS should be
-applied to. If LANG-SYMBOL is nil, PATTERNS are applied to the current buffer,
-and are prioritized over language-specific patterns. Either way, PATTERNS are
-prioritized over `tree-sitter-hl-default-patterns'.
-
-This function should be used by minor modes and configuration code. Major modes
-should set `tree-sitter-hl-default-patterns' instead.
-
-(fn LANG-SYMBOL PATTERNS)") (function-put 'tree-sitter-hl-add-patterns 'lisp-indent-function 1) (autoload 'tree-sitter-hl-mode "tree-sitter-hl" "Toggle syntax highlighting based on Tree-sitter's syntax tree.
-
-If `tree-sitter-hl-default-patterns' is nil, turning on this mode does nothing,
-and does not interfere with `font-lock-mode'.
-
-Enabling this automatically enables `tree-sitter-mode' in the buffer.
-
-To enable this automatically whenever `tree-sitter-mode' is enabled:
-
- (add-hook 'tree-sitter-after-on-hook #'tree-sitter-hl-mode)
-
-This is a minor mode.  If called interactively, toggle the
-`Tree-Sitter-Hl mode' mode.  If the prefix argument is positive,
-enable the mode, and if it is zero or negative, disable the mode.
-
-If called from Lisp, toggle the mode if ARG is `toggle'.  Enable
-the mode if ARG is nil, omitted, or is a positive number.
-Disable the mode if ARG is a negative number.
-
-To check whether the minor mode is enabled in the current buffer,
-evaluate `tree-sitter-hl-mode'.
-
-The mode's hook is called both when the mode is enabled and when
-it is disabled.
-
-(fn &optional ARG)" t) (register-definition-prefixes "tree-sitter-hl" '("tree-sitter-hl-")) (autoload 'tree-sitter-require "tree-sitter-load" "Return the language object loaded and registered under the name LANG-SYMBOL.
-If the language has not been loaded yet, load it with `tree-sitter-load'.
-
-FILE should be the base name (without extension) of the native shared library
-that exports the language as the native symbol NATIVE-SYMBOL-NAME.
-
-If FILE is nil, the base name is assumed to be LANG-SYMBOL's name.
-
-If NATIVE-SYMBOL-NAME is nil, the name of the exported native symbol is assumed
-to be LANG-SYMBOL's name, prefixed with \"tree_sitter_\".
-
-(fn LANG-SYMBOL &optional FILE NATIVE-SYMBOL-NAME)") (register-definition-prefixes "tree-sitter-load" '("tree-sitter-l")) (autoload 'tree-sitter-query-builder "tree-sitter-query" "Provide means for developers to write and test tree-sitter queries.
-
-The buffer on focus when the command is called is set as the target buffer." t) (register-definition-prefixes "tree-sitter-query" '("tree-sitter-")) (provide 'tree-sitter-autoloads)) "tree-sitter-langs" ((tree-sitter-langs-build tree-sitter-langs-autoloads tree-sitter-langs) (autoload 'tree-sitter-langs--init-load-path "tree-sitter-langs" "Add the directory containing compiled grammars to `tree-sitter-load-path'.
-
-(fn &rest ARGS)") (advice-add 'tree-sitter-load :before #'tree-sitter-langs--init-load-path) (autoload 'tree-sitter-langs--init-major-mode-alist "tree-sitter-langs" "Link known major modes to languages provided by the bundle.
-
-(fn &rest ARGS)") (advice-add 'tree-sitter--setup :before #'tree-sitter-langs--init-major-mode-alist) (autoload 'tree-sitter-langs--set-hl-default-patterns "tree-sitter-langs" "Use syntax highlighting patterns provided by `tree-sitter-langs'.
-
-(fn &rest ARGS)") (advice-add 'tree-sitter-hl--setup :before #'tree-sitter-langs--set-hl-default-patterns) (register-definition-prefixes "tree-sitter-langs" '("tree-sitter-langs-")) (autoload 'tree-sitter-langs-install-grammars "tree-sitter-langs-build" "Download and install the specified VERSION of the language grammar bundle.
-If VERSION or OS is not specified, use the default of
-`tree-sitter-langs--bundle-version' and `tree-sitter-langs--os'.
-
-This installs the grammar bundle even if the same version was already installed,
-unless SKIP-IF-INSTALLED is non-nil.
-
-The download bundle file is deleted after installation, unless KEEP-BUNDLE is
-non-nil.
-
-(fn &optional SKIP-IF-INSTALLED VERSION OS KEEP-BUNDLE)" t) (autoload 'tree-sitter-langs-install-latest-grammar "tree-sitter-langs-build" "Install the latest version of the tree-sitter-langs grammar bundle.
-Automatically retrieves the latest version tag from GitHub.
-If SKIP-IF-INSTALLED is non-nil, skips if the latest version is already installed.
-OS specifies the operating system.
-If KEEP-BUNDLE is non-nil, the downloaded bundle file is not deleted after installation.
-
-(fn &optional SKIP-IF-INSTALLED OS KEEP-BUNDLE)" t) (register-definition-prefixes "tree-sitter-langs-build" '("tree-sitter-langs-")) (provide 'tree-sitter-langs-autoloads))))
-
-#s(hash-table size 65 test eq rehash-size 1.5 rehash-threshold 0.8125 data (org-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 15 "melpa" nil "gnu-elpa-mirror" nil "nongnu-elpa" nil "el-get" nil "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "markdown-mode" nil "typst-mode" nil "polymode" nil "typst-ts-mode" nil "tree-sitter-langs" nil "tree-sitter" nil "tsc" nil)) melpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "tree-sitter-langs" (tree-sitter-langs :type git :flavor melpa :files (:defaults "queries" "tree-sitter-langs-pkg.el") :branch "release" :host github :repo "emacs-tree-sitter/tree-sitter-langs") "tree-sitter" (tree-sitter :type git :flavor melpa :files (:defaults (:exclude "lisp/tree-sitter-tests.el") "tree-sitter-pkg.el") :branch "release" :host github :repo "emacs-tree-sitter/elisp-tree-sitter") "tsc" (tsc :type git :flavor melpa :files ("core/*.el" "core/Cargo.toml" "core/Cargo.lock" "core/src" "tsc-pkg.el") :branch "release" :host github :repo "emacs-tree-sitter/elisp-tree-sitter") "gnu-elpa-mirror" nil "nongnu-elpa" nil "el-get" (el-get :type git :flavor melpa :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :host github :repo "dimitri/el-get") "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "markdown-mode" (markdown-mode :type git :flavor melpa :host github :repo "jrblevin/markdown-mode") "typst-mode" nil "polymode" (polymode :type git :flavor melpa :host github :repo "polymode/polymode") "typst-ts-mode" nil)) gnu-elpa-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 3 "nongnu-elpa" nil "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil "typst-ts-mode" nil)) nongnu-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 4 "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil "typst-ts-mode" nil)) el-get #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil "typst-ts-mode" nil)) emacsmirror-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "straight" (straight :type git :host github :repo "emacsmirror/straight") "lsp-bridge" (lsp-bridge :type git :host github :repo "emacsmirror/lsp-bridge") "typst-mode" (typst-mode :type git :host github :repo "emacsattic/typst-mode") "typst-ts-mode" nil))))
+#s(hash-table size 65 test eq rehash-size 1.5 rehash-threshold 0.8125 data (org-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 15 "melpa" nil "gnu-elpa-mirror" nil "nongnu-elpa" nil "el-get" nil "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "markdown-mode" nil "typst-mode" nil "polymode" nil)) melpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "gnu-elpa-mirror" nil "nongnu-elpa" nil "el-get" (el-get :type git :flavor melpa :files ("*.el" ("recipes" "recipes/el-get.rcp") "methods" "el-get-pkg.el") :host github :repo "dimitri/el-get") "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "markdown-mode" (markdown-mode :type git :flavor melpa :host github :repo "jrblevin/markdown-mode") "typst-mode" nil "polymode" (polymode :type git :flavor melpa :host github :repo "polymode/polymode"))) gnu-elpa-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 3 "nongnu-elpa" nil "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil)) nongnu-elpa #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 4 "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil)) el-get #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "emacsmirror-mirror" nil "straight" nil "lsp-bridge" nil "typst-mode" nil)) emacsmirror-mirror #s(hash-table size 65 test equal rehash-size 1.5 rehash-threshold 0.8125 data (version 2 "straight" (straight :type git :host github :repo "emacsmirror/straight") "lsp-bridge" (lsp-bridge :type git :host github :repo "emacsmirror/lsp-bridge") "typst-mode" (typst-mode :type git :host github :repo "emacsattic/typst-mode")))))
 
 ("polymode" "typst-mode" "markdown-mode" "lsp-bridge" "emacs" "straight" "emacsmirror-mirror" "el-get" "nongnu-elpa" "gnu-elpa-mirror" "melpa" "org-elpa")
 

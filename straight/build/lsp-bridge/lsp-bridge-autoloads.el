@@ -83,7 +83,7 @@ it is disabled.
 
 ;;; Generated autoloads from lsp-bridge-ref.el
 
-(register-definition-prefixes "lsp-bridge-ref" '("lsp-bridge-ref-"))
+(register-definition-prefixes "lsp-bridge-ref" '("lsp-bridge-"))
 
 
 ;;; Generated autoloads from lsp-bridge-semantic-tokens.el
