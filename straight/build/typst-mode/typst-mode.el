@@ -1,1 +1,0 @@
-/home/elon/.emacs.d/straight/repos/typst-mode.el/typst-mode.el

@@ -21,11 +21,10 @@
     )
   :config
   (dashboard-setup-startup-hook)
-
-  ;; Customize the dashboard items
-  (setq dashboard-items '((recents . 6)
-                          (bookmarks . 6)
+  (setq dashboard-items '((recents . 5)
+                          (bookmarks . 5)
                           ))
+  (setq dashboard-navigation-cycle t)
   (add-hook 'dashboard-mode-hook #'which-key-mode)
   )
 

@@ -10,7 +10,7 @@
 (setq use-file-dialog nil)      ; Ask for textual confirmation instead of GUI
 
 
-;; Remove initial scratch message and "For information about GNU Emacs and the 
+;; Remove initial scratch message and "For information about GNU Emacs and the
 ;; GNU system, type C-h C-a"
 (use-package emacs
   :init
@@ -59,6 +59,10 @@
 
 ;; auto delete save files
 (setq delete-auto-save-files t)
+
+;; set font size
+(set-face-attribute 'default nil :height 150)
+
 
 (provide 'init-base)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

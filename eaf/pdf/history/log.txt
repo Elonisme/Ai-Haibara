@@ -1,4 +1,0 @@
-/home/elon/org-roam/20240116211622-联邦学习攻击方式.pdf
-/home/elon/Documents/Writing/Typst/如何在Arch Linux上安装EAF-PDF-Viewer.pdf
-/home/elon/Documents/Writing/Typst/main.pdf
-/home/elon/Documents/Writing/Typst/typst_in_emacs.pdf
