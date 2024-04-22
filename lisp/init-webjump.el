@@ -13,6 +13,11 @@
                    ("Savannah Emacs page" .
                     "savannah.gnu.org/projects/emacs")
 
+                   ;; Github
+                   ("Github" .
+                    [simple-query "github.com/Elonisme"
+                                  "github.com/search?q=" ""])
+
                    ;; QQ Music
                    ("QQ Muisc" .
                     [simple-query "y.qq.com"
