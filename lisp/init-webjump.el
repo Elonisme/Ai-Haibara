@@ -3,7 +3,7 @@
 
 ;;; Code:
 (use-package webjump
-  :ensure nil
+  :ensure t
   :bind ("C-c /" . webjump)
   :custom
   (webjump-sites '(
@@ -12,6 +12,9 @@
                     "www.gnu.org/software/emacs/emacs.html")
                    ("Savannah Emacs page" .
                     "savannah.gnu.org/projects/emacs")
+
+                   ("ChatGpt" .
+                    "chat.openai.com")
 
                    ;; Github
                    ("Github" .

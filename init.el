@@ -77,7 +77,7 @@
   (require 'init-delsel)
   (require 'init-webjump)
   (require 'init-write)
-  ;;  (require 'init-music)
+  (require 'init-orgai)
   )
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
