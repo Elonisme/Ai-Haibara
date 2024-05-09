@@ -3,21 +3,22 @@
 
 ;;; Code:
 
-;; set treesit
 
-;; (require 'tree-sitter)
-;; (require 'tree-sitter-langs)
+(use-package tree-sitter
+  :ensure t
+  :hook (prog-mode . tree-sitter-mode)
+  )
 
-;; (global-tree-sitter-mode)
+(use-package tree-sitter-langs
+  :ensure t
+  :after tree-sitter
+  :hook(tree-sitter-mode . tree-sitter-hl-mode)
+  )
 
 
 (use-package treesit-auto
   :ensure t
-  :custom
-  (treesit-auto-install 'prompt)
-  :config
-  (treesit-auto-add-to-auto-mode-alist 'all)
-  (global-treesit-auto-mode))
+)
 
 (provide 'init-treesit)
 

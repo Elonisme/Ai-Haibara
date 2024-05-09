@@ -5,6 +5,7 @@
 
 ;; open display-line-numbers
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
+(add-hook 'LaTeX-mode-hook 'display-line-numbers-mode)
 
 (provide 'init-number)
 

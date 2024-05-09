@@ -3,13 +3,6 @@
 
 ;;; Code:
 
-(defun switch-latex-theme ()
-  (load-theme auto-theme-switch-light-theme t)
-  )
-
-(defun kill-latex-theme ()
-  (auto-theme-switch-set-theme)
-  )
 
 (use-package tex
   :ensure auctex
@@ -34,14 +27,7 @@
   :hook
   (LaTeX-mode . cdlatex-mode)
   (LaTeX-mode . reftex-mode)
-  (LaTeX-mode . switch-latex-theme)
   )
-
-(add-hook 'kill-buffer-hook
-          (lambda ()
-            (when (eq major-mode 'LaTeX-mode)
-              (kill-latex-theme))))
-
 
 (provide 'init-latex)
 

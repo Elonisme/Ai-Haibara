@@ -9,8 +9,6 @@
                          :build (:not compile))
   :hook
   ((emacs-lisp-mode . lsp-bridge-mode)
-   (org-mode . lsp-bridge-mode)
-   (markdown-mode . lsp-bridge-mode)
    (LaTeX-mode . lsp-bridge-mode))
   )
 

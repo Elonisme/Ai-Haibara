@@ -4,10 +4,10 @@
 ;;; Code:
 
 (use-package org
-  :ensure nil
+  :ensure t
   :hook
   ((org-mode . visual-line-mode)
-		 (org-mode . my/org-prettify-symbols))
+	 (org-mode . my/org-prettify-symbols))
   :commands (org-find-exact-headline-in-buffer org-set-tags)
   :custom-face
   ;; 设置Org mode标题以及每级标题行的大小
@@ -130,10 +130,9 @@
 
 (use-package org-auto-tangle
   :ensure t
-  :hook (org-mode . org-auto-tangle-mode)
-  :config
-  (setq org-auto-tangle-default t)
   )
+
+(setq warning-suppress-types '((org-element-cache)))
 
 (provide 'init-org)
 

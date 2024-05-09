@@ -28,7 +28,7 @@ it is disabled.
 
 (fn &optional ARG)" t)
 (autoload 'global-lsp-bridge-mode "lsp-bridge" nil t)
-(register-definition-prefixes "lsp-bridge" '("acm-library-path" "lsp-bri" "position-before-jump"))
+(register-definition-prefixes "lsp-bridge" '("acm-library-path" "lsp-bri"))
 
 
 ;;; Generated autoloads from lsp-bridge-call-hierarchy.el
