@@ -16,10 +16,6 @@
   )
 
 
-(use-package treesit-auto
-  :ensure t
-)
-
 (provide 'init-treesit)
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;

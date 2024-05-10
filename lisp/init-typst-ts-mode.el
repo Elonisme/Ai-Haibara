@@ -7,7 +7,6 @@
 ;;              '(typst "https://github.com/uben0/tree-sitter-typst"))
 ;; (treesit-install-language-grammar 'typst)
 
-
 (use-package typst-ts-mode
   :straight '(typst-ts-mode :type git :host sourcehut
                             :repo "meow_king/typst-ts-mode"
@@ -15,6 +14,8 @@
   :custom
   (typst-ts-mode-watch-options "--open")
   )
+
+(add-to-list 'auto-mode-alist '("\\.typ\\'" . typst-ts-mode))
 
 (provide 'init-typst-ts-mode)
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
