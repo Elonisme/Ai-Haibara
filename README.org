@@ -56,7 +56,7 @@ To install, clone this repo to ~.emacs.d~,i.e ensure that the ~init.el~ containe
 ~.emacs.d/init.el~ :
 
 #+BEGIN_SRC shell
-git clone git@github.com:Elonisme/APTX-4869.git ~/.emacs.d
+  git clone https://github.com/Elonisme/Ai-Haibara.git ~/.emacs.d
 #+END_SRC
 
 Upon starting up Emacs for the first time, further third-party packages will be automatically downloaded and 
